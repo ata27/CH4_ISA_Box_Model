@@ -8,6 +8,8 @@ The main aim of this code is to allow you to play around with the coupled CH4-CO
 
 The model will also allow you to have a look at the effects of changing emissions of Cl atoms. Cl atoms can remove methane from the atmosphere and have been proposed as a way of helping prevent methane increases in the future becoming dangerous (for climate!). 
 
+At the moment, the code will allow you to ramp up emissions using a linear scaling factor. This could be useful for exploring what happens to methane if methane emissions increase -- or what happens to methane if CO emissions increase. It's quite fascinating actually. 
+
 I will try to update the code as I go but note the license details below.
 
 # LICENSE
