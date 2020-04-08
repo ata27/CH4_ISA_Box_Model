@@ -10,6 +10,8 @@ The model will also allow you to have a look at the effects of changing emission
 
 At the moment, the code will allow you to ramp up emissions using a linear scaling factor. This could be useful for exploring what happens to methane if methane emissions increase -- or what happens to methane if CO emissions increase. It's quite fascinating actually. 
 
+![Here is an example of some output](link-to-image)
+
 I will try to update the code as I go but note the license details below.
 
 # LICENSE
