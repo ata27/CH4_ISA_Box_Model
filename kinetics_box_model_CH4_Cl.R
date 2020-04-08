@@ -1,6 +1,7 @@
 # R script to solve and plot kinetics
 
 # Alex Archibald, ata27@cam.ac.uk
+# With big thanks to Paul Griffiths for help!
 
 # this is the library that does the clever stuff!
 # you need to install it using install.packages("deSolve") and then use it 
