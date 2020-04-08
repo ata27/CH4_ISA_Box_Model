@@ -54,13 +54,13 @@ emis.func <- approxfun(emis_frame)
 # define the value for M to fold into rate constants
 M = 2.5e19; O2 = 0.2*M; H2O = 1e17
 
-# set the parameters of the rate constants - assume 288 K
+# set the parameters of the rate constants - assume 288 K usuall units (i.e. bimol rate constants in cm3 molecule-1 s-1)
 parameters <- c(k1=(1.85E-12 * exp(-1690/288)), 
                 k2=(6.6E-12 * exp(-1240/288)), 
                 k3=(1.44E-13 * (1 + (0.8*M)/4.2E19)), 
                 k4= 1) # based on Heimeann et al
 
-# set state variables
+# set state variables - in units of molecules cm-3 (CH4 is at 1.8 ppm, CO at 100 ppb etc).
 state <- c(CH4=4.5e13, CO=2.5E12, OH=5e5, Cl=1e3)
 
 # define function for the rate equations
