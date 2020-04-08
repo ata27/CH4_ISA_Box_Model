@@ -10,7 +10,8 @@ The model will also allow you to have a look at the effects of changing emission
 
 At the moment, the code will allow you to ramp up emissions using a linear scaling factor. This could be useful for exploring what happens to methane if methane emissions increase -- or what happens to methane if CO emissions increase. It's quite fascinating actually. 
 
-![Here is an example of some output]([delCH4.pdf](https://github.com/ata27/CH4_ISA_Box_Model/files/4450833/delCH4.pdf))
+Here is an example of some of the output -- in this case looking at drastic increases in methane emissions!
+![delCH4](https://user-images.githubusercontent.com/15714566/78791915-5f62d280-79a8-11ea-8076-aba86f848a44.png)
 
 I will try to update the code as I go but note the license details below.
 
